@@ -1,0 +1,104 @@
+.fundo-times {
+	background: url("https://images6.alphacoders.com/127/1271321.jpg") no-repeat fixed;
+}
+
+.conteudo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	margin-top: 3em;
+}
+
+.corpo-conteudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:  2px solid #FFFFFF;
+	padding: 1em;
+	background: #1C1C1C;
+	width: 80%;
+}
+
+.titulo-conteudo {
+	font-size: 2em;
+	font-family: "Josefin Sans", sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.texto-conteudo {
+	font-family: "Inter", sans-serif;
+	text-align: justify;
+	font-size: 1.7em;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.icone-personagem {
+	margin-top: 2em;
+}
+
+.times {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3em;
+	width: 60%;
+	margin-bottom: 3em;
+	color: #FFFFFF;
+}
+
+.tabela-times {
+	background: #1C1C1C;
+	border: 2px solid #FFFFFF;
+	margin-bottom: 3em;
+}
+
+.titulo-time {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.nome-time {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	margin: 10px;
+}
+
+.personagens {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.icone-membro {
+	width: 12em;
+}
+
+.interior-texto {
+	border-top: 2px solid #FFFFFF;
+	font-family: "Work Sans", sans-serif;
+}
+
+.texto-funcionamento {
+	text-align: center;
+	margin: 1.6em;
+	font-weight: bold;
+}
+
+/*.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "QuickSand", sans-serif	;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	height: 2em;
+	background: #1C1C1C;
+	border-top:  2px solid #FFFFFF;
+	margin-top: 4em;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+}*/

@@ -1,0 +1,112 @@
+.fundo-armas {
+	background: url("https://images5.alphacoders.com/112/1127296.jpg") center top no-repeat fixed;
+}
+
+.conteudo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	margin-top: 3em;
+}
+
+.corpo-conteudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:  2px solid #FFFFFF;
+	padding: 1em;
+	background: #1C1C1C;
+	width: 80%;
+}
+
+.titulo-conteudo {
+	font-size: 2em;
+	font-family: "Josefin Sans", sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.texto-conteudo {
+	font-family: "Inter", sans-serif;
+	text-align: justify;
+	font-size: 1.7em;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.icone-arma {
+	margin-top: 2em;
+}
+
+.armas {
+	display: flex;
+	justify-content: space-around;
+	margin: 4em 0 1em 0;
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.informacoes-armas {
+	border: 1px solid #FFFFFF;
+	width: 25%;
+	background: #1C1C1C;
+	color: #FFFFFF;
+	margin-bottom: 3em;
+}
+
+.imagem-arma {
+	width: 7em;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
+.titulo-arma {
+	margin: 1em;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.texto-espada,
+.texto-espadao,
+.texto-lanca,
+.texto-catalisador,
+.texto-arco {
+	font-family: "Inter", sans-serif;
+	font-weight: bold;		
+}
+
+.texto-espada {
+	margin: 4em 3em;
+}
+
+.texto-espadao {
+	margin: 3em;
+}
+
+.texto-lanca {
+	margin: 4.8em 3em;
+}
+
+.texto-catalisador,
+.texto-arco {
+	margin: 3em;
+}
+
+/*.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "QuickSand", sans-serif	;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	height: 2em;
+	background: #1C1C1C;
+	border-top:  2px solid #FFFFFF;
+	margin-top: 4em;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+}*/

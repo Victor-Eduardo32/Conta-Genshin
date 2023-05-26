@@ -1,0 +1,48 @@
+.fundo-home {
+	background: url("https://images5.alphacoders.com/110/1108905.jpg");
+}
+
+.conteudo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 80em;
+	margin-top: 3em;
+}
+
+.corpo-conteudo {
+	border:  2px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 1em;
+	background: rgb(192,192,192, 0.5);
+}
+
+.titulo-conteudo {
+	font-size: 2em;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.texto-conteudo {
+	font-family: "Josefin Sans", sans-serif;
+	text-align: justify;
+	font-size: 1.7em;
+	width: 25em;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+/*.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "QuickSand", sans-serif	;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	height: 2em;
+	margin-top: 4em;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+}*/

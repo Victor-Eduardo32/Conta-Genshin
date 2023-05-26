@@ -1,0 +1,53 @@
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+	height: 8em;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.apresentacao-cabecalho {
+	display: flex;
+	align-content: center;
+}
+
+.logo-genshin {
+	width: 8em;
+	margin: 15px;
+}
+
+.cabecalho-nome {
+	align-self: center;
+	margin-left: 1em;
+	color:  #FFFFFF;
+	font-size: 2.2em;
+	font-weight: bold;
+	text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.navegacao-cabecalho {
+	display: flex;
+	padding: 3em;
+	align-items: center;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+}
+
+.botao-navegacao-cabecalho {
+	margin: 2em;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+.botao-navegacao-cabecalho:hover {
+	text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.redirecionamento-cabecalho {
+	text-decoration: none;
+	color:  #000000;
+}
+
+.redirecionamento-cabecalho:hover {
+	color:  #FFFFFF;
+	text-decoration: underline;
+	font-size: 1.3em;
+}

@@ -1,0 +1,143 @@
+.fundo-personagens {
+	background: url("https://images7.alphacoders.com/116/1161810.jpg") center bottom no-repeat fixed;
+}
+
+.conteudo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	margin-top: 3em;
+}
+
+.corpo-conteudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:  2px solid #FFFFFF;
+	padding: 1em;
+	background: #1C1C1C;
+	width: 80%;
+}
+
+.titulo-conteudo {
+	font-size: 2em;
+	font-family: "Josefin Sans", sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.texto-conteudo {
+	font-family: "Inter", sans-serif;
+	text-align: justify;
+	font-size: 1.7em;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.imagem-elementos {
+	padding: 1em;
+	width: 20em;
+	margin-top: 1em;
+}
+
+.personagens {
+	width: 100%;
+	margin: 3em 0 3em 0;
+}
+
+.Anemo,
+.Cryo,
+.Dendro,
+.Electro,
+.Geo,
+.Hydro,
+.Pyro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.elemento-fora-tabela {
+	display: flex;
+	width: 80%;
+	margin: 2em 0 1em 1em;
+}
+
+.nome-elemento {
+	font-family: "Josefin Sans", sans-serif;
+	color: #FFFFFF;
+	font-size: 1.7em;
+	text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+	margin-left: 10px;
+	align-self: center;
+}
+
+.imagem-anemo {
+	width: 3em;
+	align-self: flex-start;
+}
+
+.tabela-personagens {
+	width: 80%;
+	background: #1C1C1C;
+	color: #FFFFFF;
+}
+
+.cabecalho-tabela-personagens {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #FFFFFF;
+	padding: 7px;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.titulo-cabecalho-tabela-1 {
+	margin-left: 6.5em;
+}
+
+.titulo-cabecalho-tabela-3 {
+	margin-right: 4em;
+}
+
+.corpo-tabela-personagens {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #FFFFFF;
+	border-top: none;
+	font-family: "Work Sans", sans-serif;
+	font-weight: bold;
+}
+
+.icone-personagem {
+	width: 12em;
+}
+
+.interior-tabela-personagens-2 {
+	margin-right: 3em;
+	width: 50%;
+	text-align: center;
+}
+
+.interior-tabela-personagens-3 {
+	margin-right: 3em;
+}
+
+/*.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "QuickSand", sans-serif	;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	height: 2em;
+	background: #1C1C1C;
+	border-top:  2px solid #FFFFFF;
+	margin-top: 4em;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+}*/
